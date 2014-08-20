@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset = "utf-8">
+    <title>Laboratorio 1</title>
+  </head>
+
+  <body>
+
+  <div id="header">
+    <h1 style="display: inline">Datos Libros</h1> 
+  </div>
+
+    <hr>
+
+  <div id="nav">
+    <a href="Principal.html">Inicio</a> 
+    <a href="Mostrarlibros.html">Mostrar</a>
+    <a href="Agregarlibros.html">Agregar</a>
+  </div>
+
+    <hr>
+
+  <div id="main">  
+  <h2>Agrega datos del Libro:</h2>
+
+  <form method = "post" action = "mensaje.html">
+    Título: <input type="text" name="titulo" autofocus required><br>
+    Autores: <input type="text" name="autores" required><br>
+    Año: <input type="number" name="año" required><br><br>
+    Versión: <br> 
+    <input type="checkbox" name="version" value="impresa">Impresa<br>
+    <input type="checkbox" name="version" value="digital">Digital<br><br>
+    <input type="radio" name="idioma" value="ingles">Inglés
+    <input type="radio" name="idioma" value="espaniol">Español<br><br>
+    Área
+    <select>
+      <option value="matematicas">Matemáticas</option>
+      <option value="ciencias">Ciencias</option>
+      <option value="literatura">Literatura</option>
+      <option value="computacion">Computación</option>
+    </select>
+    <br>
+    Comentarios:<br>
+    <textarea rows="4" cols="50"></textarea>
+    <br>
+
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpiar!">
+
+  </form>
+  </div>
+
+    <hr>
+
+  <div id="footer">
+      <h2>Realizado por: Rosario Delgado Vaquera &copy</h2>  
+  </div>
+
+  </body>
+
+</html>
